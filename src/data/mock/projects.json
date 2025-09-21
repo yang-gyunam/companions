@@ -1,0 +1,32 @@
+[
+  {
+    "id": "proj-001",
+    "name": "E-commerce Platform",
+    "category": "Web Development",
+    "status": "In Progress",
+    "description": "Full-stack e-commerce solution with modern React frontend",
+    "requirements": 45,
+    "epics": 12,
+    "stories": 134
+  },
+  {
+    "id": "proj-002",
+    "name": "Mobile Banking App",
+    "category": "Mobile App",
+    "status": "Planning",
+    "description": "Secure mobile banking application with biometric authentication",
+    "requirements": 28,
+    "epics": 8,
+    "stories": 89
+  },
+  {
+    "id": "proj-003",
+    "name": "Brand Identity Redesign",
+    "category": "Design",
+    "status": "Review",
+    "description": "Complete brand identity overhaul including logo and guidelines",
+    "requirements": 15,
+    "epics": 5,
+    "stories": 42
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "E-commerce Platform",
+      "nameKo": "이커머스 플랫폼",
+      "category": "Web Development",
+      "status": "In Progress",
+      "priority": "High",
+      "description": "차세대 패션 이커머스 플랫폼으로 AI 기반 개인화 추천과 AR 피팅 기능을 제공하는 혁신적인 쇼핑 경험을 구현합니다.",
+      "progress": 75,
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-15",
+      "budget": 500000000,
+      "teamMembers": [1, 2, 3, 5],
+      "technologies": ["React", "Node.js", "PostgreSQL", "AWS", "TensorFlow"],
+      "milestones": [
+        {
+          "name": "MVP 출시",
+          "date": "2024-10-30",
+          "completed": true
+        },
+        {
+          "name": "AI 추천 시스템 통합",
+          "date": "2024-11-30",
+          "completed": false
+        },
+        {
+          "name": "AR 피팅 기능 추가",
+          "date": "2024-12-15",
+          "completed": false
+        }
+      ],
+      "tags": ["AI", "E-commerce", "Fashion", "AR"],
+      "client": "Corporation",
+      "thumbnail": null
+    },
+    {
+      "id": 2,
+      "name": "SecureBank Mobile App",
+      "nameKo": "시큐어뱅크 모바일 앱",
+      "category": "Mobile App",
+      "status": "Review",
+      "priority": "High",
+      "description": "생체인증과 블록체인 기술을 활용한 차세대 모바일 뱅킹 애플리케이션으로 최고 수준의 보안과 편의성을 제공합니다.",
+      "progress": 90,
+      "startDate": "2024-07-01",
+      "endDate": "2024-11-30",
+      "budget": 800000000,
+      "teamMembers": [6, 4, 3, 5],
+      "technologies": ["Swift", "Kotlin", "Node.js", "Blockchain", "Biometric Auth"],
+      "milestones": [
+        {
+          "name": "기본 뱅킹 기능 완성",
+          "date": "2024-09-30",
+          "completed": true
+        },
+        {
+          "name": "생체인증 통합",
+          "date": "2024-10-31",
+          "completed": true
+        },
+        {
+          "name": "보안 테스트 완료",
+          "date": "2024-11-30",
+          "completed": false
+        }
+      ],
+      "tags": ["Banking", "Security", "Blockchain", "Mobile"],
+      "client": "SecureBank Ltd.",
+      "thumbnail": null
+    },
+    {
+      "id": 3,
+      "name": "Smart City Dashboard",
+      "nameKo": "스마트시티 대시보드",
+      "category": "Data Visualization",
+      "status": "Planning",
+      "priority": "Medium",
+      "description": "IoT 센서 데이터를 실시간으로 수집하고 분석하여 도시 운영을 최적화하는 통합 관리 시스템입니다.",
+      "progress": 25,
+      "startDate": "2024-11-01",
+      "endDate": "2025-03-31",
+      "budget": 300000000,
+      "teamMembers": [1, 2, 5],
+      "technologies": ["Vue.js", "Python", "InfluxDB", "Grafana", "IoT"],
+      "milestones": [
+        {
+          "name": "데이터 수집 시스템 구축",
+          "date": "2024-12-31",
+          "completed": false
+        },
+        {
+          "name": "실시간 대시보드 개발",
+          "date": "2025-02-28",
+          "completed": false
+        },
+        {
+          "name": "AI 분석 모듈 통합",
+          "date": "2025-03-31",
+          "completed": false
+        }
+      ],
+      "tags": ["IoT", "Smart City", "Data", "Real-time"],
+      "client": "Seoul Metropolitan Government",
+      "thumbnail": null
+    },
+    {
+      "id": 4,
+      "name": "EduTech Learning Platform",
+      "nameKo": "에듀테크 학습 플랫폼",
+      "category": "Education Technology",
+      "status": "In Progress",
+      "priority": "Medium",
+      "description": "AI 기반 개인화 학습과 VR/AR 기술을 활용한 몰입형 교육 경험을 제공하는 차세대 온라인 학습 플랫폼입니다.",
+      "progress": 60,
+      "startDate": "2024-08-15",
+      "endDate": "2025-01-31",
+      "budget": 400000000,
+      "teamMembers": [1, 2, 3, 6],
+      "technologies": ["React", "Python", "TensorFlow", "Unity", "WebRTC"],
+      "milestones": [
+        {
+          "name": "기본 학습 플랫폼 구축",
+          "date": "2024-10-15",
+          "completed": true
+        },
+        {
+          "name": "AI 개인화 시스템 도입",
+          "date": "2024-12-31",
+          "completed": false
+        },
+        {
+          "name": "VR/AR 학습 모듈 완성",
+          "date": "2025-01-31",
+          "completed": false
+        }
+      ],
+      "tags": ["Education", "AI", "VR", "AR", "Learning"],
+      "client": "EduTech Solutions",
+      "thumbnail": null
+    },
+    {
+      "id": 5,
+      "name": "HealthCare Analytics Portal",
+      "nameKo": "헬스케어 분석 포털",
+      "category": "Healthcare Technology",
+      "status": "Completed",
+      "priority": "High",
+      "description": "의료 빅데이터를 활용한 예측 분석과 개인화된 건강 관리 솔루션을 제공하는 통합 헬스케어 플랫폼입니다.",
+      "progress": 100,
+      "startDate": "2024-01-01",
+      "endDate": "2024-08-31",
+      "budget": 600000000,
+      "teamMembers": [2, 4, 5],
+      "technologies": ["Angular", "Python", "MongoDB", "Apache Kafka", "ML"],
+      "milestones": [
+        {
+          "name": "데이터 파이프라인 구축",
+          "date": "2024-03-31",
+          "completed": true
+        },
+        {
+          "name": "예측 모델 개발",
+          "date": "2024-06-30",
+          "completed": true
+        },
+        {
+          "name": "사용자 포털 완성",
+          "date": "2024-08-31",
+          "completed": true
+        }
+      ],
+      "tags": ["Healthcare", "BigData", "Analytics", "ML"],
+      "client": "HealthTech Medical Group",
+      "thumbnail": null
+    },
+    {
+      "id": 6,
+      "name": "Logistics Optimization System",
+      "nameKo": "물류 최적화 시스템",
+      "category": "Supply Chain",
+      "status": "In Progress",
+      "priority": "High",
+      "description": "AI와 머신러닝을 활용한 스마트 물류 관리 시스템으로 배송 경로 최적화와 재고 관리를 자동화합니다.",
+      "progress": 45,
+      "startDate": "2024-10-01",
+      "endDate": "2025-04-30",
+      "budget": 750000000,
+      "teamMembers": [2, 4, 5, 6],
+      "technologies": ["Spring Boot", "Python", "Redis", "Apache Spark", "GPS"],
+      "milestones": [
+        {
+          "name": "경로 최적화 알고리즘 구현",
+          "date": "2024-12-31",
+          "completed": false
+        },
+        {
+          "name": "실시간 추적 시스템 구축",
+          "date": "2025-02-28",
+          "completed": false
+        },
+        {
+          "name": "AI 예측 모델 통합",
+          "date": "2025-04-30",
+          "completed": false
+        }
+      ],
+      "tags": ["Logistics", "AI", "Optimization", "Supply Chain"],
+      "client": "GlobalLogistics Corp",
+      "thumbnail": null
+    }
+  ]
+}

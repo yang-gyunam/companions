@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"module": "ESNext",
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"skipLibCheck": true,
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"baseUrl": ".",
+		"paths": {
+			"$lib/*": ["src/lib/*"],
+			"$src/*": ["src/*"],
+			"$atoms/*": ["src/components/atoms/*"],
+			"$molecules/*": ["src/components/molecules/*"],
+			"$organisms/*": ["src/components/organisms/*"],
+			"$templates/*": ["src/components/templates/*"],
+			"$components/*": ["src/components/*"],
+			"$models/*": ["src/models/*"],
+			"$stores/*": ["src/stores/*"],
+			"$assets/*": ["src/lib/assets/*"],
+			"$data/*": ["src/data/*"],
+			"$types/*": ["src/types/*"],
+			"$constants/*": ["src/constants/*"],
+			"$utils/*": ["src/utils/*"],
+			"$hooks/*": ["src/hooks/*"],
+			"$pages/*": ["src/pages/*"]
+		}
+	},
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}

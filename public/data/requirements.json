@@ -1,0 +1,204 @@
+{
+  "requirements": [
+    {
+      "id": 1,
+      "title": "사용자 인증 시스템 구현",
+      "category": "Authentication",
+      "priority": "High",
+      "status": "In Progress",
+      "description": "OAuth 2.0과 JWT를 활용한 보안 강화된 사용자 인증 시스템을 구현합니다. 소셜 로그인(Google, Apple, KakaoTalk)과 2FA 인증을 지원해야 합니다.",
+      "projectId": 1,
+      "assignedTo": [1, 2],
+      "reporter": "윤지혜",
+      "createdDate": "2024-09-15",
+      "dueDate": "2024-11-30",
+      "estimatedHours": 120,
+      "actualHours": 85,
+      "tags": ["Security", "OAuth", "JWT", "2FA"],
+      "acceptanceCriteria": [
+        "사용자는 이메일/패스워드로 로그인할 수 있어야 함",
+        "Google, Apple, KakaoTalk 소셜 로그인 지원",
+        "2단계 인증(SMS, 앱 기반) 선택 가능",
+        "비밀번호 재설정 기능 제공",
+        "세션 관리 및 자동 로그아웃 기능"
+      ],
+      "comments": [
+        {
+          "author": "김서아",
+          "date": "2024-09-20",
+          "content": "소셜 로그인 UI 컴포넌트 작업 완료했습니다."
+        },
+        {
+          "author": "박준호",
+          "date": "2024-09-25",
+          "content": "JWT 토큰 관리 및 리프레시 로직 구현 완료."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "실시간 알림 시스템",
+      "category": "Notification",
+      "priority": "Medium",
+      "status": "Planning",
+      "description": "WebSocket을 활용한 실시간 알림 시스템으로 프로젝트 상태 변경, 새로운 메시지, 마감일 알림 등을 실시간으로 사용자에게 전달합니다.",
+      "projectId": 1,
+      "assignedTo": [2, 4],
+      "reporter": "박준호",
+      "createdDate": "2024-09-18",
+      "dueDate": "2024-12-31",
+      "estimatedHours": 80,
+      "actualHours": 0,
+      "tags": ["WebSocket", "Real-time", "Push Notification"],
+      "acceptanceCriteria": [
+        "실시간 브라우저 알림 표시",
+        "알림 카테고리별 설정 가능",
+        "알림 히스토리 보관 및 조회",
+        "모바일 푸시 알림 연동",
+        "알림 읽음/미읽음 상태 관리"
+      ],
+      "comments": [
+        {
+          "author": "첸데이비드",
+          "date": "2024-09-22",
+          "content": "WebSocket 서버 아키텍처 설계 검토 중입니다."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "파일 업로드 및 관리",
+      "category": "File Management",
+      "priority": "High",
+      "status": "Completed",
+      "description": "다중 파일 업로드, 진행률 표시, 이미지 리사이징, 클라우드 스토리지 연동을 포함한 통합 파일 관리 시스템입니다.",
+      "projectId": 2,
+      "assignedTo": [1, 4],
+      "reporter": "이마리아",
+      "createdDate": "2024-08-01",
+      "dueDate": "2024-10-15",
+      "estimatedHours": 60,
+      "actualHours": 65,
+      "tags": ["File Upload", "AWS S3", "Image Processing"],
+      "acceptanceCriteria": [
+        "드래그앤드롭으로 다중 파일 업로드",
+        "업로드 진행률 실시간 표시",
+        "이미지 자동 리사이징 및 최적화",
+        "파일 타입 및 크기 제한 설정",
+        "업로드된 파일 목록 관리 및 삭제"
+      ],
+      "comments": [
+        {
+          "author": "김서아",
+          "date": "2024-10-10",
+          "content": "파일 업로드 UI 컴포넌트 완성 및 테스트 완료."
+        },
+        {
+          "author": "첸데이비드",
+          "date": "2024-10-12",
+          "content": "AWS S3 연동 및 CDN 설정 완료."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "데이터 시각화 대시보드",
+      "category": "Analytics",
+      "priority": "Medium",
+      "status": "In Progress",
+      "description": "Chart.js와 D3.js를 활용한 인터랙티브 데이터 시각화 대시보드로 프로젝트 진행률, 팀 성과, 시간 추이 등을 시각적으로 표현합니다.",
+      "projectId": 3,
+      "assignedTo": [1, 5],
+      "reporter": "윤지혜",
+      "createdDate": "2024-09-10",
+      "dueDate": "2025-01-31",
+      "estimatedHours": 100,
+      "actualHours": 45,
+      "tags": ["Data Visualization", "Chart.js", "D3.js", "Analytics"],
+      "acceptanceCriteria": [
+        "실시간 데이터 업데이트 차트",
+        "다양한 차트 타입 지원 (선형, 원형, 막대 등)",
+        "인터랙티브 필터링 및 드릴다운",
+        "차트 데이터 CSV/PDF 내보내기",
+        "반응형 디자인으로 모바일 지원"
+      ],
+      "comments": [
+        {
+          "author": "김서아",
+          "date": "2024-09-30",
+          "content": "기본 차트 컴포넌트 라이브러리 구축 완료."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "API 성능 최적화",
+      "category": "Performance",
+      "priority": "High",
+      "status": "In Progress",
+      "description": "데이터베이스 쿼리 최적화, 캐싱 전략 구현, API 응답 시간 개선을 통해 전체적인 시스템 성능을 향상시킵니다.",
+      "projectId": 2,
+      "assignedTo": [2, 4],
+      "reporter": "박준호",
+      "createdDate": "2024-09-05",
+      "dueDate": "2024-11-15",
+      "estimatedHours": 90,
+      "actualHours": 60,
+      "tags": ["Performance", "Database", "Caching", "API"],
+      "acceptanceCriteria": [
+        "API 응답 시간 50% 단축",
+        "데이터베이스 쿼리 최적화 완료",
+        "Redis 캐싱 시스템 구현",
+        "API 모니터링 및 알림 시스템",
+        "부하 테스트 통과 (1000 동시 사용자)"
+      ],
+      "comments": [
+        {
+          "author": "첸데이비드",
+          "date": "2024-09-28",
+          "content": "Redis 클러스터 설정 및 캐싱 전략 구현 완료."
+        },
+        {
+          "author": "박준호",
+          "date": "2024-10-05",
+          "content": "주요 API 엔드포인트 인덱싱 작업 진행 중."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "모바일 앱 UI/UX 개선",
+      "category": "Mobile UI/UX",
+      "priority": "Medium",
+      "status": "Review",
+      "description": "사용자 피드백을 반영한 모바일 앱의 인터페이스 개선 및 사용성 향상 작업입니다. 접근성과 다크모드를 고려한 디자인 시스템을 구축합니다.",
+      "projectId": 2,
+      "assignedTo": [3, 6],
+      "reporter": "이마리아",
+      "createdDate": "2024-08-20",
+      "dueDate": "2024-11-30",
+      "estimatedHours": 70,
+      "actualHours": 55,
+      "tags": ["Mobile", "UI/UX", "Accessibility", "Dark Mode"],
+      "acceptanceCriteria": [
+        "일관된 디자인 시스템 적용",
+        "다크모드 완전 지원",
+        "접근성 가이드라인 준수 (WCAG 2.1 AA)",
+        "사용자 테스트 피드백 반영",
+        "애니메이션 성능 최적화"
+      ],
+      "comments": [
+        {
+          "author": "송민준",
+          "date": "2024-10-15",
+          "content": "iOS 다크모드 구현 완료, 안드로이드 작업 진행 중."
+        },
+        {
+          "author": "이마리아",
+          "date": "2024-10-18",
+          "content": "사용자 테스트 결과 95% 만족도 달성."
+        }
+      ]
+    }
+  ]
+}
