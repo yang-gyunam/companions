@@ -188,14 +188,14 @@
 						<div class="label">
 							<span class="label-text font-medium">Build Date</span>
 						</div>
-						<div class="text-sm text-gray-600">{new Date().toLocaleDateString()}</div>
+						<div class="text-sm text-gray-600">{new Date(__BUILD_DATE__).toLocaleDateString()}</div>
 					</div>
 					
 					<div>
 						<div class="label">
 							<span class="label-text font-medium">Framework</span>
 						</div>
-						<div class="text-sm text-gray-600">SvelteKit + TypeScript</div>
+						<div class="text-sm text-gray-600">Svelte + TypeScript</div>
 					</div>
 					
 					<div>
